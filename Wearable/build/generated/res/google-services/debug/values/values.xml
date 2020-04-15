@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">798248622021-l630ukmbmponh1lt5d1is1uscesv3qh6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://moean-45fec.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">798248622021</string>
+    <string name="google_api_key" translatable="false">AIzaSyBoQfv2gsu34mYx88jJtV3S8RMp-hmz2k0</string>
+    <string name="google_app_id" translatable="false">1:798248622021:android:0b307f028fafe2797b1dac</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBoQfv2gsu34mYx88jJtV3S8RMp-hmz2k0</string>
+    <string name="google_storage_bucket" translatable="false">moean-45fec.appspot.com</string>
+    <string name="project_id" translatable="false">moean-45fec</string>
+</resources>

@@ -1,0 +1,7 @@
+#Tue Apr 14 20:25:44 AST 2020
+base.0=C\:\\Users\\l_olo\\AndroidStudioProjects\\datalayer (2)\\DataLayer\\Wearable\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\l_olo\\AndroidStudioProjects\\datalayer (2)\\DataLayer\\Wearable\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

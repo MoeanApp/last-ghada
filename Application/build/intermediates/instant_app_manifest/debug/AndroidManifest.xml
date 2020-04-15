@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.wearable.datalayer"
+    android:targetSandboxVersion="2" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="28" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.hardware.sensor.proximity" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="true" />
+
+    <permission
+        android:name="com.example.moean_p.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.locationwear.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="@null"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.android.wearable.datalayer.MapsActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.example.android.wearable.datalayer.Video_Play_Caregiver" />
+        <activity android:name="com.example.android.wearable.datalayer.MessageActivity" />
+        <activity
+            android:name="com.example.android.wearable.datalayer.Register"
+            android:exported="true" />
+        <activity android:name="com.example.android.wearable.datalayer.Videos" />
+        <activity android:name="com.example.android.wearable.datalayer.videoscare" />
+        <activity android:name="com.example.android.wearable.datalayer.location" />
+        <activity android:name="com.example.android.wearable.datalayer.Convercation_for_caregiver" />
+        <activity android:name="com.example.android.wearable.datalayer.childprofile" />
+        <activity android:name="com.example.android.wearable.datalayer.WhoIsMoeanCaregiver" />
+        <activity android:name="com.example.android.wearable.datalayer.UploadVideo" />
+        <activity android:name="com.example.android.wearable.datalayer.AdvisorProfile" />
+        <activity android:name="com.example.android.wearable.datalayer.Convercation" />
+        <activity android:name="com.example.android.wearable.datalayer.Login" />
+        <activity android:name="com.example.android.wearable.datalayer.Video_Play" />
+        <activity
+            android:name="com.example.android.wearable.datalayer.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.android.wearable.datalayer.Login_or_signin"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.example.android.wearable.datalayer.Notifications.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.android.wearable.datalayer.Notifications.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="org.hugoandrade.calendarviewapp.ui.SplashActivity" />
+        <activity
+            android:name="org.hugoandrade.calendarviewapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivitySDK21"
+            android:parentActivityName="org.hugoandrade.calendarviewapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.hugoandrade.calendarviewapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="org.hugoandrade.calendarviewapp.CreateEventActivity"
+            android:parentActivityName="org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivitySDK21"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivitySDK21" />
+        </activity>
+        <activity
+            android:name="org.hugoandrade.calendarviewapp.SelectDateAndTimeActivity"
+            android:parentActivityName="org.hugoandrade.calendarviewapp.CreateEventActivity"
+            android:theme="@style/AppTheme.NoActionBar.Transition" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.hugoandrade.calendarviewapp.CreateEventActivity" />
+        </activity>
+        <activity
+            android:name="org.hugoandrade.calendarviewapp.ui.Login"
+            android:label="Login" />
+        <activity
+            android:name="org.hugoandrade.calendarviewapp.ui.Register"
+            android:label="Register" />
+
+        <receiver android:name="org.hugoandrade.calendarviewapp.AlertReceiver" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.android.wearable.datalayer.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

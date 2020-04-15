@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+
+    >
+
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="الصفحة الشخصية" />
+        <item
+            android:id="@+id/nav_consult"
+            android:icon="@drawable/chat_bubble_24dp"
+            android:title="الإستشارات" />
+
+
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/view_video_black_24dp"
+            android:title="مقاطع الفديو الخاصة بي"
+
+            />
+        <item
+            android:id="@+id/nav_who_is_moean"
+            android:icon="@drawable/who_is_moean"
+            android:title="من نحن؟"
+
+            />
+
+    </group>
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/signout"
+        android:title="تسجيل خروج" />
+
+
+</menu>

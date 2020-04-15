@@ -1,0 +1,751 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:2:1-113:12
+MERGED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-61:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\78c84ba685873cf0d7d6a4b8f7528c0d\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2a765f877a6e60df56cc207d723113ff\jetified-material-spinner-2.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [:CalendarViewLib] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\CalendarViewLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\ef935c1554200214aa462e90445784c3\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\fd253ff6d5cfa8ec3f7e1cfb1e0be87c\legacy-support-v13-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\3bb1f3d037b42327865657548238329f\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5b10e25d3a812cef319f07795a3baa26\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\eea4e0b9a4ea786dd68c9961e547671e\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:15:1-38:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c73c2b817da5be335010b563fababd34\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d814177649b55943b36bca6e83954520\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\684ef4fa06db10744e1d146f50482603\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c19dcfe4337f5c319c6a43a8ff050b84\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f6eedc05a1fff36506c159670ef391dc\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1540f2d594b13f8cfd5d3ba8922825fc\percentlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\23b1a84603efe983f19f63a42d69652a\play-services-wearable-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\14d46e36fd28853d4ca4f04e30df0b13\jetified-butterknife-8.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\83764ef79099b6afb6f00b31ac4cc9a8\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40dea7c32ca2e7d1b869e86c4e38eff7\jetified-android-maps-utils-0.4\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\ae7a0738250efbb6763307fc1d721058\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\b8f8a12e8e85260bf056cf2c9573d5b5\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\986a8ca5c2ea02ea6a4d26f5b8a78ef5\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\bc0ff65d1ed04dad72b08bdb79ebc53f\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2930a5f8bcbd0b5a1e8aef6e2dde8b18\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\afe975bbfda3e0727db702833698aeca\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\300005a0f8cd4cea082f420db363a25f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\094b74939047ed9664c3cd34b3947fc8\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5477bb50f0f89629d65f55410ed0fdc2\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\239dd0041c5f1e114e283b0fae62913c\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\72b16d693df692b944a0b68f955ef3b9\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2c5ad760a4509750215d1b575215fb7c\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5bd1e1fb627aaab138134c685c757a6c\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5cc9eac99289f6358f9fd022aa8d901c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c824616969c6e6e8233aa845999f6c7\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\58df934a034b03f97d6cc499f3ff2c13\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\57ac7f2d818e1e8510e72a220cc422c7\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\67903725dbd322a3d9e1347db6207266\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\038cc2c76c7be737413fbb2c4f7af6b3\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\cccc3adbb8271c5ffc8e4340ce4a32c7\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\fcfb6fefef4f8c10720a1d4ec337d15c\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9f0e37815f8fea8cb9b76405c3eeb15d\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1ebe6f6643ad2d5e88525b06806b9b70\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f309a215487c39bb49b8f1359478cccc\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\4259e2b98550c468d6c16cfd1caff3c7\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\77ac9647d29ca35344e3735a4c695b07\firebase-encoders-json-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c7c6f78932f92c9172ad69e31a5e7afb\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\320cda25fe585538e0006fbc5dd4df1a\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\809776d6a0b78f1455525a54f25545cf\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\3d16622dde07c59eb4782d3484f4d013\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\91c3d27d708ecc1e489b4adff8fd0d93\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f93cb47e0b58afa70980d530fb3224d5\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\50e24a384f918dce263ccdfec38f3b45\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\261473a5c7c2747776f2774ec51e3bd7\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\026a1ae172dd7db0b40a845fcb5b4142\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40c35d883ab2527af318639b514924f5\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\45aa37793e7ee90fe38c2710ba620204\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\625d57e60b2b2b8994b310dac669789b\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\83749dda74073b0ef4b5ed4c86bb5114\transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
+	package
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:4:5-53
+	xmlns:tools
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:6:5-8:36
+	android:required
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:7:9-47
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:12:22-77
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:13:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:13:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:14:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:18:5-77
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:18:22-74
+uses-permission#android.hardware.sensor.proximity
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:19:5-73
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:19:22-70
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:21:5-23:35
+	android:required
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:23:9-32
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:22:9-61
+uses-feature#android.hardware.sensor.compass
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:24:5-26:35
+	android:required
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:26:9-32
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:25:9-55
+permission#com.example.moean_p.permission.MAPS_RECEIVE
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:29:9-67
+uses-permission#com.example.locationwear.permission.MAPS_RECEIVE
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:32:5-88
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:32:22-85
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:34:5-98
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:34:22-95
+uses-feature#0x00020000
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:36:5-38:35
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:37:9-41
+	android:required
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:38:9-32
+application
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:40:5-111:19
+MERGED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-59:19
+MERGED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-59:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\78c84ba685873cf0d7d6a4b8f7528c0d\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\78c84ba685873cf0d7d6a4b8f7528c0d\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d814177649b55943b36bca6e83954520\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d814177649b55943b36bca6e83954520\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\684ef4fa06db10744e1d146f50482603\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:12:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\684ef4fa06db10744e1d146f50482603\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:22:5-42:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c19dcfe4337f5c319c6a43a8ff050b84\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c19dcfe4337f5c319c6a43a8ff050b84\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\23b1a84603efe983f19f63a42d69652a\play-services-wearable-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\23b1a84603efe983f19f63a42d69652a\play-services-wearable-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\83764ef79099b6afb6f00b31ac4cc9a8\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\83764ef79099b6afb6f00b31ac4cc9a8\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40dea7c32ca2e7d1b869e86c4e38eff7\jetified-android-maps-utils-0.4\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40dea7c32ca2e7d1b869e86c4e38eff7\jetified-android-maps-utils-0.4\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\ae7a0738250efbb6763307fc1d721058\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\ae7a0738250efbb6763307fc1d721058\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\b8f8a12e8e85260bf056cf2c9573d5b5\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\b8f8a12e8e85260bf056cf2c9573d5b5\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\986a8ca5c2ea02ea6a4d26f5b8a78ef5\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\986a8ca5c2ea02ea6a4d26f5b8a78ef5\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\bc0ff65d1ed04dad72b08bdb79ebc53f\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\bc0ff65d1ed04dad72b08bdb79ebc53f\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2930a5f8bcbd0b5a1e8aef6e2dde8b18\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2930a5f8bcbd0b5a1e8aef6e2dde8b18\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\afe975bbfda3e0727db702833698aeca\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\afe975bbfda3e0727db702833698aeca\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\300005a0f8cd4cea082f420db363a25f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\300005a0f8cd4cea082f420db363a25f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\4259e2b98550c468d6c16cfd1caff3c7\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\4259e2b98550c468d6c16cfd1caff3c7\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\320cda25fe585538e0006fbc5dd4df1a\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\320cda25fe585538e0006fbc5dd4df1a\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:supportsRtl
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:46:9-35
+	android:label
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:44:9-41
+	android:appComponentFactory
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:42:9-44
+		REJECTED from [androidx.core:core:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\4259e2b98550c468d6c16cfd1caff3c7\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:roundIcon
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:45:9-54
+	android:icon
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:43:9-43
+	android:allowBackup
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:41:9-35
+	android:theme
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:47:9-40
+	tools:replace
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:48:9-52
+activity#com.example.android.wearable.datalayer.MapsActivity
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:49:9-59
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:49:19-47
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:51:9-53:69
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40dea7c32ca2e7d1b869e86c4e38eff7\jetified-android-maps-utils-0.4\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40dea7c32ca2e7d1b869e86c4e38eff7\jetified-android-maps-utils-0.4\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\300005a0f8cd4cea082f420db363a25f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\300005a0f8cd4cea082f420db363a25f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:53:13-66
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:52:13-58
+activity#com.example.android.wearable.datalayer.Video_Play_Caregiver
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:55:9-58
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:55:19-55
+activity#com.example.android.wearable.datalayer.MessageActivity
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:56:9-53
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:56:19-50
+activity#com.example.android.wearable.datalayer.Register
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:57:9-59:39
+	android:exported
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:58:13-37
+activity#com.example.android.wearable.datalayer.Videos
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:60:9-44
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:60:19-41
+activity#com.example.android.wearable.datalayer.videoscare
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:61:9-48
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:61:19-45
+activity#com.example.android.wearable.datalayer.location
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:62:9-46
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:62:19-43
+activity#com.example.android.wearable.datalayer.Convercation_for_caregiver
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:63:9-64
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:63:19-61
+activity#com.example.android.wearable.datalayer.childprofile
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:64:9-50
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:64:19-47
+activity#com.example.android.wearable.datalayer.WhoIsMoeanCaregiver
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:65:9-57
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:65:19-54
+activity#com.example.android.wearable.datalayer.UploadVideo
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:66:9-49
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:66:19-46
+activity#com.example.android.wearable.datalayer.AdvisorProfile
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:67:9-52
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:67:19-49
+activity#com.example.android.wearable.datalayer.Convercation
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:68:9-50
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:68:19-47
+activity#com.example.android.wearable.datalayer.Login
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:69:9-43
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:69:19-40
+activity#com.example.android.wearable.datalayer.Video_Play
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:70:9-48
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:70:19-45
+activity#com.example.android.wearable.datalayer.MainActivity
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:71:9-74:56
+	android:label
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:73:13-45
+	android:launchMode
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:74:13-44
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:72:13-41
+activity#com.example.android.wearable.datalayer.Login_or_signin
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:75:9-83:20
+	android:theme
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:77:13-56
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:76:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:78:13-82:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:79:17-69
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:79:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:81:17-77
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:81:27-74
+service#com.example.android.wearable.datalayer.Notifications.MyFirebaseMessaging
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:85:9-92:19
+	android:enabled
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:87:13-35
+	android:exported
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:88:13-36
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:86:13-62
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:89:13-91:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:90:17-78
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:90:25-75
+service#com.example.android.wearable.datalayer.Notifications.MyFirebaseIdService
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:93:9-102:19
+	android:enabled
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:95:13-35
+	android:exported
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:96:13-36
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:94:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:97:13-99:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:98:17-81
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:98:25-78
+meta-data#com.google.android.wearable.standalone
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:103:9-105:36
+	android:value
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:105:13-33
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:104:13-66
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:106:9-108:55
+	android:value
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:108:13-52
+	android:name
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:107:13-58
+uses-sdk
+INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+MERGED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\78c84ba685873cf0d7d6a4b8f7528c0d\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\78c84ba685873cf0d7d6a4b8f7528c0d\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2a765f877a6e60df56cc207d723113ff\jetified-material-spinner-2.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2a765f877a6e60df56cc207d723113ff\jetified-material-spinner-2.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [:CalendarViewLib] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\CalendarViewLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:CalendarViewLib] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\CalendarViewLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\ef935c1554200214aa462e90445784c3\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\ef935c1554200214aa462e90445784c3\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\fd253ff6d5cfa8ec3f7e1cfb1e0be87c\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\fd253ff6d5cfa8ec3f7e1cfb1e0be87c\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\3bb1f3d037b42327865657548238329f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\3bb1f3d037b42327865657548238329f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5b10e25d3a812cef319f07795a3baa26\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5b10e25d3a812cef319f07795a3baa26\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\eea4e0b9a4ea786dd68c9961e547671e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\eea4e0b9a4ea786dd68c9961e547671e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c73c2b817da5be335010b563fababd34\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c73c2b817da5be335010b563fababd34\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d814177649b55943b36bca6e83954520\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d814177649b55943b36bca6e83954520\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\684ef4fa06db10744e1d146f50482603\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\684ef4fa06db10744e1d146f50482603\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c19dcfe4337f5c319c6a43a8ff050b84\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c19dcfe4337f5c319c6a43a8ff050b84\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f6eedc05a1fff36506c159670ef391dc\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f6eedc05a1fff36506c159670ef391dc\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1540f2d594b13f8cfd5d3ba8922825fc\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1540f2d594b13f8cfd5d3ba8922825fc\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\23b1a84603efe983f19f63a42d69652a\play-services-wearable-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\23b1a84603efe983f19f63a42d69652a\play-services-wearable-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\14d46e36fd28853d4ca4f04e30df0b13\jetified-butterknife-8.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\14d46e36fd28853d4ca4f04e30df0b13\jetified-butterknife-8.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\83764ef79099b6afb6f00b31ac4cc9a8\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\83764ef79099b6afb6f00b31ac4cc9a8\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40dea7c32ca2e7d1b869e86c4e38eff7\jetified-android-maps-utils-0.4\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40dea7c32ca2e7d1b869e86c4e38eff7\jetified-android-maps-utils-0.4\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\ae7a0738250efbb6763307fc1d721058\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\ae7a0738250efbb6763307fc1d721058\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\b8f8a12e8e85260bf056cf2c9573d5b5\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\b8f8a12e8e85260bf056cf2c9573d5b5\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\986a8ca5c2ea02ea6a4d26f5b8a78ef5\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\986a8ca5c2ea02ea6a4d26f5b8a78ef5\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\bc0ff65d1ed04dad72b08bdb79ebc53f\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\bc0ff65d1ed04dad72b08bdb79ebc53f\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2930a5f8bcbd0b5a1e8aef6e2dde8b18\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2930a5f8bcbd0b5a1e8aef6e2dde8b18\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\afe975bbfda3e0727db702833698aeca\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\afe975bbfda3e0727db702833698aeca\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\300005a0f8cd4cea082f420db363a25f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\300005a0f8cd4cea082f420db363a25f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\094b74939047ed9664c3cd34b3947fc8\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\094b74939047ed9664c3cd34b3947fc8\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5477bb50f0f89629d65f55410ed0fdc2\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5477bb50f0f89629d65f55410ed0fdc2\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\239dd0041c5f1e114e283b0fae62913c\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\239dd0041c5f1e114e283b0fae62913c\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\72b16d693df692b944a0b68f955ef3b9\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\72b16d693df692b944a0b68f955ef3b9\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2c5ad760a4509750215d1b575215fb7c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\2c5ad760a4509750215d1b575215fb7c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5bd1e1fb627aaab138134c685c757a6c\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5bd1e1fb627aaab138134c685c757a6c\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5cc9eac99289f6358f9fd022aa8d901c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\5cc9eac99289f6358f9fd022aa8d901c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c824616969c6e6e8233aa845999f6c7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c824616969c6e6e8233aa845999f6c7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\58df934a034b03f97d6cc499f3ff2c13\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\58df934a034b03f97d6cc499f3ff2c13\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\57ac7f2d818e1e8510e72a220cc422c7\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\57ac7f2d818e1e8510e72a220cc422c7\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\67903725dbd322a3d9e1347db6207266\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\67903725dbd322a3d9e1347db6207266\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\038cc2c76c7be737413fbb2c4f7af6b3\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\038cc2c76c7be737413fbb2c4f7af6b3\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\cccc3adbb8271c5ffc8e4340ce4a32c7\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\cccc3adbb8271c5ffc8e4340ce4a32c7\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\fcfb6fefef4f8c10720a1d4ec337d15c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\fcfb6fefef4f8c10720a1d4ec337d15c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9f0e37815f8fea8cb9b76405c3eeb15d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9f0e37815f8fea8cb9b76405c3eeb15d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1ebe6f6643ad2d5e88525b06806b9b70\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1ebe6f6643ad2d5e88525b06806b9b70\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f309a215487c39bb49b8f1359478cccc\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f309a215487c39bb49b8f1359478cccc\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\4259e2b98550c468d6c16cfd1caff3c7\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\4259e2b98550c468d6c16cfd1caff3c7\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\77ac9647d29ca35344e3735a4c695b07\firebase-encoders-json-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\77ac9647d29ca35344e3735a4c695b07\firebase-encoders-json-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c7c6f78932f92c9172ad69e31a5e7afb\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c7c6f78932f92c9172ad69e31a5e7afb\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\320cda25fe585538e0006fbc5dd4df1a\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\320cda25fe585538e0006fbc5dd4df1a\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\809776d6a0b78f1455525a54f25545cf\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\809776d6a0b78f1455525a54f25545cf\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\3d16622dde07c59eb4782d3484f4d013\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\3d16622dde07c59eb4782d3484f4d013\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\91c3d27d708ecc1e489b4adff8fd0d93\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\91c3d27d708ecc1e489b4adff8fd0d93\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f93cb47e0b58afa70980d530fb3224d5\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f93cb47e0b58afa70980d530fb3224d5\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\50e24a384f918dce263ccdfec38f3b45\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\50e24a384f918dce263ccdfec38f3b45\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\261473a5c7c2747776f2774ec51e3bd7\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\261473a5c7c2747776f2774ec51e3bd7\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\026a1ae172dd7db0b40a845fcb5b4142\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\026a1ae172dd7db0b40a845fcb5b4142\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40c35d883ab2527af318639b514924f5\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\40c35d883ab2527af318639b514924f5\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\45aa37793e7ee90fe38c2710ba620204\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\45aa37793e7ee90fe38c2710ba620204\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\625d57e60b2b2b8994b310dac669789b\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\625d57e60b2b2b8994b310dac669789b\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\83749dda74073b0ef4b5ed4c86bb5114\transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\83749dda74073b0ef4b5ed4c86bb5114\transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-75
+activity#org.hugoandrade.calendarviewapp.ui.SplashActivity
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-86
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:19-83
+activity#org.hugoandrade.calendarviewapp.MainActivity
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-23:59
+	android:theme
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-72
+activity#org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivity
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-26:59
+	android:theme
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-89
+activity#org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivitySDK21
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-34:20
+	android:parentActivityName
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-86
+	android:theme
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-94
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:80
+	android:value
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-63
+activity#org.hugoandrade.calendarviewapp.CreateEventActivity
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-42:20
+	android:parentActivityName
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-108
+	android:theme
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-79
+activity#org.hugoandrade.calendarviewapp.SelectDateAndTimeActivity
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-50:20
+	android:parentActivityName
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-93
+	android:theme
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-67
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-85
+activity#org.hugoandrade.calendarviewapp.ui.Login
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-53:37
+	android:label
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-34
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-68
+activity#org.hugoandrade.calendarviewapp.ui.Register
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:40
+	android:label
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-71
+receiver#org.hugoandrade.calendarviewapp.AlertReceiver
+ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:9-82
+	android:name
+		ADDED from [:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:19-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:26:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:31:13-84
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132

@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2014 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.wearable.datalayer"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="23"
+23-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="28" />
+24-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:20:5-67
+26-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:20:22-64
+27    <uses-permission android:name="android.permission.BODY_SENSORS" />
+27-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:21:5-71
+27-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:21:22-68
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:23:5-68
+28-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:23:22-65
+29
+30    <uses-feature android:name="android.hardware.type.watch" />
+30-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:25:5-64
+30-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:25:19-61
+31    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+32    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+33-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+34
+35    <uses-feature
+35-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+36        android:glEsVersion="0x00020000"
+36-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+37        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+37-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+38    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+38-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+38-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:26:5-110
+39-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:26:22-107
+40
+41    <application
+41-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:27:5-68:19
+42        android:allowBackup="true"
+42-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:28:13-39
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\4259e2b98550c468d6c16cfd1caff3c7\core-1.1.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@drawable/ic_launcher"
+45-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:29:13-49
+46        android:label="@string/app_name"
+46-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:30:9-41
+47        android:theme="@android:style/Theme.DeviceDefault" >
+47-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:31:9-59
+48        <activity android:name="com.example.android.wearable.datalayer.steps" />
+48-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:32:9-43
+48-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:32:19-40
+49
+50        <meta-data
+50-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:36:9-38:37
+51            android:name="com.google.android.wearable.standalone"
+51-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:37:13-66
+52            android:value="false" />
+52-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:38:13-34
+53        <meta-data
+53-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:40:9-42:73
+54            android:name="com.google.android.gms.version"
+54-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:41:17-62
+55            android:value="@integer/google_play_services_version" />
+55-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:42:17-70
+56
+57        <service android:name="com.example.android.wearable.datalayer.DataLayerListenerService" >
+57-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:44:9-55:19
+57-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:45:17-57
+58            <intent-filter>
+58-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:46:13-50:29
+59
+60                <!-- listeners receive events that match the action and data filters -->
+61                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+61-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:48:17-87
+61-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:48:25-84
+62
+63                <data
+63-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:49:17-91
+64                    android:host="*"
+64-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:49:45-61
+65                    android:pathPrefix="/count"
+65-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:49:62-89
+66                    android:scheme="wear" />
+66-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:49:23-44
+67            </intent-filter>
+68            <intent-filter>
+68-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:51:13-54:29
+69                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+69-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:52:17-91
+69-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:52:25-88
+70
+71                <data
+71-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:49:17-91
+72                    android:host="*"
+72-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:49:45-61
+73                    android:pathPrefix="/update-uid"
+73-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:49:62-89
+74                    android:scheme="wear" />
+74-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:49:23-44
+75            </intent-filter>
+76        </service>
+77
+78        <activity
+78-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:56:9-67:20
+79            android:name="com.example.android.wearable.datalayer.WMainActivity"
+79-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:57:13-42
+80            android:label="@string/app_name" >
+80-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:58:13-45
+81            <intent-filter>
+81-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:59:13-62:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:60:17-68
+82-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:60:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:61:17-76
+84-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:61:27-74
+85            </intent-filter>
+86            <intent-filter>
+86-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:63:13-66:29
+87                <action android:name="com.example.android.wearable.datalayer.EXAMPLE" />
+87-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:64:17-88
+87-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:64:25-86
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:65:17-75
+89-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Wearable\src\main\AndroidManifest.xml:65:27-73
+90            </intent-filter>
+91        </activity>
+92
+93        <uses-library
+93-->[com.google.android.support:wearable:2.5.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9d6f4b86f991a6e7c958982a4639294b\jetified-wearable-2.5.0\AndroidManifest.xml:10:9-12:40
+94            android:name="com.google.android.wearable"
+94-->[com.google.android.support:wearable:2.5.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9d6f4b86f991a6e7c958982a4639294b\jetified-wearable-2.5.0\AndroidManifest.xml:11:13-55
+95            android:required="false" />
+95-->[com.google.android.support:wearable:2.5.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9d6f4b86f991a6e7c958982a4639294b\jetified-wearable-2.5.0\AndroidManifest.xml:12:13-37
+96
+97        <service
+97-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+98            android:name="com.google.firebase.components.ComponentDiscoveryService"
+98-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+99            android:directBootAware="true"
+99-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+100            android:exported="false" >
+100-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+101            <meta-data
+101-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+102                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+102-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+104            <meta-data
+104-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f03bdac859eae4f39bbc363539680193\play-services-measurement-api-17.2.3\AndroidManifest.xml:30:13-32:85
+105                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+105-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f03bdac859eae4f39bbc363539680193\play-services-measurement-api-17.2.3\AndroidManifest.xml:31:17-139
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\f03bdac859eae4f39bbc363539680193\play-services-measurement-api-17.2.3\AndroidManifest.xml:32:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+110        </service> <!-- Needs to be explicitly declared on P+ -->
+111        <uses-library
+111-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+112            android:name="org.apache.http.legacy"
+112-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+113            android:required="false" />
+113-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+114
+115        <receiver
+115-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+116            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+116-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+117            android:exported="true"
+117-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+118            android:permission="com.google.android.c2dm.permission.SEND" >
+118-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+119            <intent-filter>
+119-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+120                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+120-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+120-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+121            </intent-filter>
+122        </receiver>
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c10bf2bec5fe6ee11a98fb8cb58b7b06\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c10bf2bec5fe6ee11a98fb8cb58b7b06\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c10bf2bec5fe6ee11a98fb8cb58b7b06\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\c10bf2bec5fe6ee11a98fb8cb58b7b06\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+131            android:authorities="com.example.android.wearable.datalayer.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+132            android:exported="false"
+132-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+133            android:initOrder="100" />
+133-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+134
+135        <receiver
+135-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:29:9-33:20
+136            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+136-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:30:13-85
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:31:13-35
+138            android:exported="false" >
+138-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:32:13-37
+139        </receiver>
+140        <receiver
+140-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:34:9-42:20
+141            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+141-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:35:13-100
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:36:13-35
+143            android:exported="true"
+143-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:37:13-36
+144            android:permission="android.permission.INSTALL_PACKAGES" >
+144-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:38:13-69
+145            <intent-filter>
+145-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:39:13-41:29
+146                <action android:name="com.android.vending.INSTALL_REFERRER" />
+146-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:40:17-79
+146-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:40:25-76
+147            </intent-filter>
+148        </receiver>
+149
+150        <service
+150-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:44:9-47:40
+151            android:name="com.google.android.gms.measurement.AppMeasurementService"
+151-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:45:13-84
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:46:13-35
+153            android:exported="false" />
+153-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:47:13-37
+154        <service
+154-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:48:9-52:72
+155            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+155-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:49:13-87
+156            android:enabled="true"
+156-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:50:13-35
+157            android:exported="false"
+157-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:51:13-37
+158            android:permission="android.permission.BIND_JOB_SERVICE" />
+158-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\1c879b16f013b90db2ea7857f85a15c1\play-services-measurement-17.2.3\AndroidManifest.xml:52:13-69
+159    </application>
+160
+161</manifest>

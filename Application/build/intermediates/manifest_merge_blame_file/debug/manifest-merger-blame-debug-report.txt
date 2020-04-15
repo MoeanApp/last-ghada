@@ -1,0 +1,466 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.wearable.datalayer" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="18"
+6-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml
+8
+9    <uses-feature
+9-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:6:5-8:36
+10        android:name="android.hardware.camera"
+10-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:7:9-47
+11        android:required="false" />
+11-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:8:9-33
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:10:5-67
+13-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:10:22-64
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:11:5-81
+14-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:11:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:12:5-80
+15-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:12:22-77
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:13:5-82
+16-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:13:22-79
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:14:5-68
+17-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:14:22-65
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:15:5-81
+18-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:15:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:16:5-79
+19-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:16:22-76
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:11:5-81
+20-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:11:22-78
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:18:5-77
+21-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:18:22-74
+22    <uses-permission android:name="android.hardware.sensor.proximity" />
+22-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:19:5-73
+22-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:19:22-70
+23
+24    <uses-feature
+24-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:21:5-23:35
+25        android:name="android.hardware.sensor.accelerometer"
+25-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:22:9-61
+26        android:required="true" />
+26-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:23:9-32
+27    <uses-feature
+27-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:24:5-26:35
+28        android:name="android.hardware.sensor.compass"
+28-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:25:9-55
+29        android:required="true" />
+29-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:26:9-32
+30
+31    <permission
+31-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:28:5-30:47
+32        android:name="com.example.moean_p.permission.MAPS_RECEIVE"
+32-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:29:9-67
+33        android:protectionLevel="signature" />
+33-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:30:9-44
+34
+35    <uses-permission android:name="com.example.locationwear.permission.MAPS_RECEIVE" />
+35-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:32:5-88
+35-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:32:22-85
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:11:5-81
+36-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:11:22-78
+37    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+37-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:34:5-98
+37-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:34:22-95
+38
+39    <uses-feature
+39-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:36:5-38:35
+40        android:glEsVersion="0x00020000"
+40-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:37:9-41
+41        android:required="true" />
+41-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:38:9-32
+42
+43    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+43-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-78
+43-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-75
+44    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+45    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+45-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+45-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:26:22-76
+46
+47    <application
+47-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:40:5-111:19
+48        android:allowBackup="true"
+48-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:41:9-35
+49        android:appComponentFactory="@null"
+49-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:42:9-44
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:43:9-43
+52        android:label="@string/app_name"
+52-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:44:9-41
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:45:9-54
+54        android:supportsRtl="true"
+54-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:46:9-35
+55        android:testOnly="true"
+56        android:theme="@style/AppTheme" >
+56-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:47:9-40
+57        <activity android:name="com.example.android.wearable.datalayer.MapsActivity" />
+57-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:49:9-59
+57-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:49:19-47
+58
+59        <meta-data
+59-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:51:9-53:69
+60            android:name="com.google.android.gms.version"
+60-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:52:13-58
+61            android:value="@integer/google_play_services_version" />
+61-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:53:13-66
+62
+63        <activity android:name="com.example.android.wearable.datalayer.Video_Play_Caregiver" />
+63-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:55:9-58
+63-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:55:19-55
+64        <activity android:name="com.example.android.wearable.datalayer.MessageActivity" />
+64-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:56:9-53
+64-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:56:19-50
+65        <activity
+65-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:57:9-59:39
+66            android:name="com.example.android.wearable.datalayer.Register"
+66-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:58:13-37
+67            android:exported="true" />
+67-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:59:13-36
+68        <activity android:name="com.example.android.wearable.datalayer.Videos" />
+68-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:60:9-44
+68-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:60:19-41
+69        <activity android:name="com.example.android.wearable.datalayer.videoscare" />
+69-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:61:9-48
+69-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:61:19-45
+70        <activity android:name="com.example.android.wearable.datalayer.location" />
+70-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:62:9-46
+70-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:62:19-43
+71        <activity android:name="com.example.android.wearable.datalayer.Convercation_for_caregiver" />
+71-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:63:9-64
+71-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:63:19-61
+72        <activity android:name="com.example.android.wearable.datalayer.childprofile" />
+72-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:64:9-50
+72-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:64:19-47
+73        <activity android:name="com.example.android.wearable.datalayer.WhoIsMoeanCaregiver" />
+73-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:65:9-57
+73-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:65:19-54
+74        <activity android:name="com.example.android.wearable.datalayer.UploadVideo" />
+74-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:66:9-49
+74-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:66:19-46
+75        <activity android:name="com.example.android.wearable.datalayer.AdvisorProfile" />
+75-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:67:9-52
+75-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:67:19-49
+76        <activity android:name="com.example.android.wearable.datalayer.Convercation" />
+76-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:68:9-50
+76-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:68:19-47
+77        <activity android:name="com.example.android.wearable.datalayer.Login" />
+77-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:69:9-43
+77-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:69:19-40
+78        <activity android:name="com.example.android.wearable.datalayer.Video_Play" />
+78-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:70:9-48
+78-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:70:19-45
+79        <activity
+79-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:71:9-74:56
+80            android:name="com.example.android.wearable.datalayer.MainActivity"
+80-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:72:13-41
+81            android:label="@string/app_name"
+81-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:73:13-45
+82            android:launchMode="singleTask" />
+82-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:74:13-44
+83        <activity
+83-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:75:9-83:20
+84            android:name="com.example.android.wearable.datalayer.Login_or_signin"
+84-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:76:13-44
+85            android:theme="@style/AppTheme.NoActionBar" >
+85-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:77:13-56
+86            <intent-filter>
+86-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:78:13-82:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:79:17-69
+87-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:79:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:81:17-77
+89-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:81:27-74
+90            </intent-filter>
+91        </activity>
+92
+93        <service
+93-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:85:9-92:19
+94            android:name="com.example.android.wearable.datalayer.Notifications.MyFirebaseMessaging"
+94-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:86:13-62
+95            android:enabled="true"
+95-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:87:13-35
+96            android:exported="true" >
+96-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:88:13-36
+97            <intent-filter>
+97-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:89:13-91:29
+98                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+98-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:90:17-78
+98-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:90:25-75
+99            </intent-filter>
+100        </service>
+101        <service
+101-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:93:9-102:19
+102            android:name="com.example.android.wearable.datalayer.Notifications.MyFirebaseIdService"
+102-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:94:13-62
+103            android:enabled="true"
+103-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:95:13-35
+104            android:exported="true" >
+104-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:96:13-36
+105            <intent-filter>
+105-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:97:13-99:29
+106                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+106-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:98:17-81
+106-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:98:25-78
+107            </intent-filter>
+108        </service>
+109
+110        <meta-data
+110-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:103:9-105:36
+111            android:name="com.google.android.wearable.standalone"
+111-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:104:13-66
+112            android:value="true" />
+112-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:105:13-33
+113        <meta-data
+113-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:106:9-108:55
+114            android:name="com.google.android.geo.API_KEY"
+114-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:107:13-58
+115            android:value="@string/google_maps_key" />
+115-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:108:13-52
+116
+117        <activity android:name="org.hugoandrade.calendarviewapp.ui.SplashActivity" />
+117-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-86
+117-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:19-83
+118        <activity
+118-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-23:59
+119            android:name="org.hugoandrade.calendarviewapp.MainActivity"
+119-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-72
+120            android:theme="@style/AppTheme.NoActionBar" />
+120-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-56
+121        <activity
+121-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-26:59
+122            android:name="org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivity"
+122-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-89
+123            android:theme="@style/AppTheme.NoActionBar" />
+123-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-56
+124        <activity
+124-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-34:20
+125            android:name="org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivitySDK21"
+125-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-94
+126            android:parentActivityName="org.hugoandrade.calendarviewapp.MainActivity"
+126-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-86
+127            android:theme="@style/AppTheme.NoActionBar" >
+127-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-56
+128            <meta-data
+128-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:80
+129                android:name="android.support.PARENT_ACTIVITY"
+129-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-63
+130                android:value="org.hugoandrade.calendarviewapp.MainActivity" />
+130-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-77
+131        </activity>
+132        <activity
+132-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-42:20
+133            android:name="org.hugoandrade.calendarviewapp.CreateEventActivity"
+133-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-79
+134            android:parentActivityName="org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivitySDK21"
+134-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-108
+135            android:theme="@style/AppTheme.NoActionBar" >
+135-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-56
+136            <meta-data
+136-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:80
+137                android:name="android.support.PARENT_ACTIVITY"
+137-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-63
+138                android:value="org.hugoandrade.calendarviewapp.CalendarViewWithNotesActivitySDK21" />
+138-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-77
+139        </activity>
+140        <activity
+140-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-50:20
+141            android:name="org.hugoandrade.calendarviewapp.SelectDateAndTimeActivity"
+141-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-85
+142            android:parentActivityName="org.hugoandrade.calendarviewapp.CreateEventActivity"
+142-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-93
+143            android:theme="@style/AppTheme.NoActionBar.Transition" >
+143-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-67
+144            <meta-data
+144-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:80
+145                android:name="android.support.PARENT_ACTIVITY"
+145-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-63
+146                android:value="org.hugoandrade.calendarviewapp.CreateEventActivity" />
+146-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-77
+147        </activity>
+148        <activity
+148-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-53:37
+149            android:name="org.hugoandrade.calendarviewapp.ui.Login"
+149-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-68
+150            android:label="Login" />
+150-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-34
+151        <activity
+151-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:40
+152            android:name="org.hugoandrade.calendarviewapp.ui.Register"
+152-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-71
+153            android:label="Register" />
+153-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-37
+154
+155        <receiver android:name="org.hugoandrade.calendarviewapp.AlertReceiver" />
+155-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:9-82
+155-->[:Calendar] C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Calendar\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:19-79
+156
+157        <service
+157-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
+158            android:name="com.google.firebase.components.ComponentDiscoveryService"
+158-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:31:13-84
+159            android:directBootAware="true"
+159-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+160            android:exported="false" >
+160-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:32:13-37
+161            <meta-data
+161-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+162                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+162-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\33acb6c6249750098d25c20569fa21fb\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+165                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+165-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+168                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+168-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-database:19.2.1] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\55327aaa3d5fb44a919605e9c92c2c76\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
+171                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+171-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+174                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+174-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+177                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+177-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\939b0b2ed95714988dbd19e749c16991\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+179        </service>
+180
+181        <activity
+181-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+182            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+182-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+183            android:excludeFromRecents="true"
+183-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+184            android:exported="true"
+184-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+185            android:launchMode="singleTask"
+185-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+186            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+186-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+187            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+187-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9384b5f540e28dbcbcc9dbb10798c127\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+188        <uses-library
+188-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+189            android:name="org.apache.http.legacy"
+189-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+190            android:required="false" />
+190-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\e1984fe702eac44be7e2a2419964a805\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+191        <!--
+192             FirebaseMessagingService performs security checks at runtime,
+193             but set to not exported to explicitly avoid allowing another app to call it.
+194        -->
+195        <service
+195-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
+196            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+196-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
+197            android:exported="false" >
+197-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\d7312d769d25eb18548a38283df52554\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
+198            <intent-filter android:priority="-500" >
+198-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:89:13-91:29
+199                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+199-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:90:17-78
+199-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:90:25-75
+200            </intent-filter>
+201        </service>
+202
+203        <receiver
+203-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+204            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+204-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+205            android:exported="true"
+205-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+206            android:permission="com.google.android.c2dm.permission.SEND" >
+206-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\efab20c40a5b1a65437901cadea26192\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+207            <intent-filter>
+207-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:97:13-99:29
+208                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+208-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:98:17-81
+208-->C:\Users\gada-\AndroidStudioProjects\datalayer (2) 2\DataLayer\Application\src\main\AndroidManifest.xml:98:25-78
+209            </intent-filter>
+210        </receiver>
+211
+212        <activity
+212-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+213            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+213-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+214            android:exported="false"
+214-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+215-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\576eb148e4637a7c774dbac677f56943\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+216
+217        <provider
+217-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+218            android:name="com.google.firebase.provider.FirebaseInitProvider"
+218-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+219            android:authorities="com.example.android.wearable.datalayer.firebaseinitprovider"
+219-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+220            android:exported="false"
+220-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+221            android:initOrder="100" />
+221-->[com.google.firebase:firebase-common:19.3.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\dbb987ca1847583a8722466a8ca2608a\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+222
+223        <service
+223-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+224            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+224-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+225            android:exported="false" >
+225-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+226            <meta-data
+226-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+227                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+227-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+228                android:value="cct" />
+228-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\9c11231e5aa6df02b63d8e93502208f1\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+229        </service>
+230        <service
+230-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+231            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+231-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+232            android:exported="false"
+232-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+233            android:permission="android.permission.BIND_JOB_SERVICE" >
+233-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+234        </service>
+235
+236        <receiver
+236-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+237            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+237-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+238            android:exported="false" />
+238-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\gada-\.gradle\caches\transforms-2\files-2.1\0c2691ed4c2363b2b1f3cdab83c62e7d\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+239    </application>
+240
+241</manifest>
