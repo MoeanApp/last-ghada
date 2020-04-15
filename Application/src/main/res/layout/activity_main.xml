@@ -25,6 +25,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="200dp"
             app:srcCompat="@drawable/a" />
+
         <ImageView
             android:id="@+id/imageViewbg"
             android:layout_width="500dp"
@@ -32,6 +33,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             app:srcCompat="@drawable/bg" />
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="380dp"
@@ -43,7 +45,6 @@
             android:text="اشتملت رؤية المملكة 2030 على توجهات عظيمة نحو تعزيز حقوق الأشخاص ذوي الإعاقة. وتماشيا مع هذه التوجهات ، نطمح أن يكون معين بمثابة جسر متين بين مقدمي الرعاية و المستشارين"
             android:textSize="14sp"
             android:textStyle="bold" />
-
         <TextView
             android:id="@+id/contact_us"
             android:layout_width="wrap_content"
@@ -56,6 +57,7 @@
             android:layout_below="@+id/textView3"
             />
 
+
         <Button
             android:layout_width="30dp"
             android:layout_height="30dp"
@@ -67,7 +69,6 @@
             android:background="@drawable/twitter2"
 
             />
-
         <TextView
             android:id="@+id/who_is_moean_text"
             android:layout_width="wrap_content"
@@ -81,6 +82,7 @@
             android:textColor="@color/colorPrimary"
 
             android:textSize="20sp"/>
+
 
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -109,8 +111,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onConnectClicked"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:text="CONNECT" />
         </RelativeLayout>
+
     </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView

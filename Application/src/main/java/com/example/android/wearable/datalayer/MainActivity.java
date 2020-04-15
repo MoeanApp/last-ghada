@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity
         implements
         //DataClient.OnDataChangedListener,
         MessageClient.OnMessageReceivedListener{
-        //CapabilityClient.OnCapabilityChangedListener {
+    //CapabilityClient.OnCapabilityChangedListener {
 
     private DrawerLayout drawer;
     ActionBarDrawerToggle toggle;
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       // setContentView(R.layout.activity_main);
+        // setContentView(R.layout.activity_main);
         mUid = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
         LOGD(TAG, "onCreate");
